@@ -1,0 +1,30 @@
+{
+	"name": "Epic BPA Web Service Test",
+
+	"namespace": "Vanderbilt\\EpicBPATest",
+
+    "description": "Provides a simple endpoint and log page for testing Epic's BPA Web Service.",
+
+	"authors": [
+		{
+			"name": "Mark McEver",
+			"email": "datacore@vumc.org",
+			"institution": "Vanderbilt University Medical Center"
+		}
+    ],
+    
+	"links": {
+		"project": [
+			{
+				"name": "Epic BPA Web Service Test",
+				"icon": "report",
+                "url": "page.php",
+                "show-header-and-footer": true
+			}
+		]
+    },
+    
+    "no-auth-pages": [
+        "service"
+    ]
+}
